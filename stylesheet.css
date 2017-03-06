@@ -2,3 +2,8 @@ body{
   background-image: url(images/backgrounds/02.jpg);
   background-size: cover;
 }
+h1{
+text-align: center;font-family: 'Pacifico', cursive;
+font-size:600%;
+color: black;
+}
