@@ -5,21 +5,20 @@ body{
 
 
 div.menu {
-  background-color: #FFCC00;
-  opacity: 0.5;
+  background-color: rgba(254,221,0,0.9);
 }
 
 #menu ul{
   list-style: none;
   margin: 0;
-  padding: 10;
+  padding: 0;
 }
 
 #menu li{
-  display: inline;
+  display: block;;
   color:#FFFFFF;
   font-size: 80px;
-  opacity: 1;
+  margin: 14px 20px;
 }
 
 h1{
