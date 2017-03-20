@@ -15,7 +15,7 @@ div.menu {
 }
 
 #menu li{
-  display: block;
+  display: inline;
   color:#FFFFFF;
   font-size: 80px;
   margin: 14px 20px;
