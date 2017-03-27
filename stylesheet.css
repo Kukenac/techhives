@@ -42,7 +42,9 @@ color: black;
   width: 300px;
   height: 173.21px;
   background-color: #fedd00;
-  margin: 86.60px 0;
+  left: 50%;
+  bottom: 10%;
+  margin: -86.6px 0 0 -150px ;
 }
 
 .hexagon:before,
@@ -101,12 +103,10 @@ display: inline-block;
     text-shadow: none;
     color: #fff;
 }
-
 .navbar .nav > li:hover> a, .navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus {
     width: auto;
     border: 1px solid #FECE1A;
     color: #fff;
     background-color: #181A1C;
     transition: border-color 1s ease;
->>>>>>> origin/master
 }
