@@ -5,9 +5,11 @@ body{
 
 
 div.menu {
-  background-color: rgba(254,221,0,0.9);
+  /*background-color: rgba(254,221,0,0.9);*/
   text-align: center;
 }
+
+.jumbotron text-center
 
 #menu ul{
   list-style: none;
@@ -19,16 +21,29 @@ div.menu {
 #menu li{
   display: inline;
   color:#FFFFFF;
-  font-size: 80px;
-  margin: 14px 20px;
+  font-size: 2em;
+  margin: 300px 20px;
   text-align: center;
+  background-color: rgba(254,221,0,0.9);
+}
+
+#menu a{
+  color:#ffffff;
+  text-decoration: none;
+}
+
+#form {
+  width: 100%;
+  height: 50%;
+  align-items: center;
+
+
 }
 
 h1{
 text-align: center;font-family: 'Pacifico', cursive;
-font-size:600%;
+font-size:5em;
 color: black;
-
 }
 .hexagon {
 width: 100px;
