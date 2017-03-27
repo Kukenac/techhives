@@ -6,11 +6,7 @@ body{
 
 
 .jumbotron{
-<<<<<<< HEAD
-
-=======
     background-color: rgba(0,0,0,0);
->>>>>>> origin/master
     height: 95vh;
     text-align: center;
     margin-top: 0px;
@@ -48,19 +44,12 @@ color: black;
   height: 180px;
   background-color: #fedd00;
   left: 50%;
-<<<<<<< HEAD
   bottom: center;
-
-
-
   align-content: : center;
   align-items: center;
   margin: 10% 0 0 -150px;
-
-=======
   bottom: 25%;
   margin: -86.6px 0 0 -150px ;
->>>>>>> origin/master
 }
 
 .hexagon:before,
@@ -120,12 +109,9 @@ text-align: center;
 font-family: sans-serif;
 font-size: 40px;
 text-align: center;
-=======
-
 
 h2{
 	font-family: 'Pacifico', cursive;
 	font-size:3em;
 	color: black;
->>>>>>> origin/master
 }
