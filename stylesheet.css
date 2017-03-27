@@ -15,7 +15,7 @@ body{
 .icon {
     position: absolute;
     bottom: 0%;
-    margin-left: 48.25%;
+    margin-left: 47.25%;
 }
 
 .fa-4x{
@@ -60,12 +60,14 @@ color: black;
 .hexagon:before {
   bottom: 100%;
   border-bottom: 86.60px solid #fedd00;
+  left: 0%;
 }
 
 .hexagon:after {
   top: 100%;
   width: 0;
   border-top: 86.60px solid #fedd00;
+  left: 0%;
 }
 
 .news div{
@@ -112,9 +114,10 @@ display: inline-block;
     transition: border-color 1s ease;
 }
 
-#news{
-  display: inline;
 
 
-
+h2{
+	font-family: 'Pacifico', cursive;
+	font-size:3em;
+	color: black;
 }
