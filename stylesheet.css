@@ -25,34 +25,46 @@ body{
 
 h1{
 text-align: center;font-family: 'Pacifico', cursive;
-font-size:5em;
+font-size:7em;
 color: black;
 }
-.hexagon {
-width: 100px;
-height: 55px;
-background: yellow;
-position: relative;
+
+.liststyle li{
+display: inline-block;
 }
-.hexagon:before {
-content: "";
-position: absolute;
-top: -25px;
-left: 0;
-width: 0;
-height: 0;
-border-left: 50px solid transparent;
-border-right: 50px solid transparent;
-border-bottom: 25px solid yellow;
+.navbar {
+    background: #181A1C;
+    margin-bottom:0;
+    min-height:70px;
+    display: inline-block;
 }
-.hexagon:after {
-content: "";
-position: absolute;
-bottom: -25px;
-left: 0;
-width: 0;
-height: 0;
-border-left: 50px solid transparent;
-border-right: 50px solid transparent;
-border-top: 25px solid yellow;
+
+.navbar-fixed-top {
+    min-height:60px;
+    height:60px;
+    padding-top:0;
+}
+
+.navbar .brand img {
+    width:120px;
+    height:40px;
+}
+.navbar .nav > li > a {
+    text-transform:uppercase;
+    line-height: auto;
+    vertical-align: middle;
+    margin:10px 3px;
+
+    border: 1px solid #181A1C;
+
+    font-size:15px;
+    text-shadow: none;
+    color: #fff;
+}
+.navbar .nav > li:hover> a, .navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus {
+    width: auto;
+    border: 1px solid #FECE1A;
+    color: #fff;
+    background-color: #181A1C;
+    transition: border-color 1s ease;
 }
