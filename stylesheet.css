@@ -6,15 +6,16 @@ body{
 
 
 .jumbotron{
-    background-color: rgba(254,221,0,0.0);
+    background-color: rgba(0,0,0,0);
     height: 95vh;
     text-align: center;
+    margin-top: 0px;
 }
 
 .icon {
-    display: inline-block;
     position: absolute;
-    bottom: 10%;
+    bottom: 0%;
+    margin-left: 48.25%;
 }
 
 .fa-4x{
@@ -38,12 +39,12 @@ color: black;
 }
 
 .hexagon {
-  position: relative;
+  position:absolute;
   width: 300px;
   height: 173.21px;
   background-color: #fedd00;
   left: 50%;
-  bottom: 10%;
+  bottom: 25%;
   margin: -86.6px 0 0 -150px ;
 }
 
@@ -109,4 +110,11 @@ display: inline-block;
     color: #fff;
     background-color: #181A1C;
     transition: border-color 1s ease;
+}
+
+#news{
+  display: inline;
+
+
+
 }
