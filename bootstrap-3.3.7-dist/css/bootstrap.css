@@ -238,8 +238,23 @@ th {
   h3 {
     page-break-after: avoid;
   }
-  .navbar {
-    display: none;
+  .navbar-custom {
+    background-color: #ff5500;
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: rgba(0,0,0,.8);
+}
+
+.navbar-custom .navbar-nav .nav-link {
+    color: rgba(255,255,255,.5);
+}
+
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: #ffffff;
+}
   }
   .btn > .caret,
   .dropup > .btn > .caret {
